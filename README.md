@@ -81,7 +81,7 @@ Found by disassembling the x86_64 binary. The shim hooks the following:
 
 ## Limitations
 
-- iCloud save sync does not work. The restricted entitlements (`application-identifier`, iCloud container) were dropped because they need a provisioning profile.
+- iCloud save sync does not work, so the iCloud save slot is not available in the patched app. The restricted entitlements (`application-identifier`, iCloud container) were dropped because they need a provisioning profile. Local save files are shared with the unmodified app.
 - The patched app only runs on the Mac it was built on. The receipt check is not bypassed, so copying the app to another Mac fails with `exit(173)`.
 - The patched binary is x86_64 only. The game's 32-bit slice is removed.
 - The fullscreen change relies on the game's own `reshape` handling of the new view size. If the picture is scaled wrongly, check the resolution selected in the game options.
