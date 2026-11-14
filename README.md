@@ -49,6 +49,10 @@ macOS may ask for approval on first launch because the app is signed ad hoc.
 
 **Download and patch the game on each Mac separately.** The App Store receipt is tied to the Mac that downloaded the game. A patched copy moved to another Mac exits with `exit(173)`. Do not copy the patched app between machines.
 
+## In-app purchases
+
+The add-ons (Kaamo, Supernova, Valkyrie) and in-game money should be bought in the **unmodified** app. Purchases made there appear automatically in the patched app. Buying in the patched app is untested and probably does not work.
+
 ## Repository layout
 
 | Path | Purpose |
