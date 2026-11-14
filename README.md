@@ -11,8 +11,8 @@ This repository contains only the patch tooling. It does not contain any game fi
 
 | macOS | Architecture | Status |
 |---|---|---|
-| 26.3 | Apple Silicon (arm64) | ✅ |
-| 15.7 | Intel (x86_64) | ✅ |
+| 26.3 (Tahoe) | Apple Silicon (arm64) | ✅ |
+| 15.7 (Sequoia) | Intel (x86_64) | ✅ |
 
 ## What it fixes
 
